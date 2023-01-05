@@ -8,13 +8,8 @@ type Props = {
 
 const Input = (props: Props) => {
   const { type, className, ...rest } = props;
-  const [styleName, setStyleName] = useState("input");
-  useEffect(() => {
-    if (className) {
-      setStyleName(className);
-    }
-  }, [className]);
-  return <input type={type} className={styleName} {...rest} />;
+
+  return <input type={type} className={`input ${className}`} {...rest} />;
 };
 
 export default Input;
