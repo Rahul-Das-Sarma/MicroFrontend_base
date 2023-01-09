@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.sass";
+import "./styles.scss";
 type Props = {};
 
 const TextInput = (props: Props) => {
