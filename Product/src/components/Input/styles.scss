@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+.input {
+  border: 1px solid $cl-gray;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  &:focus {
+    border: 2px solid $cl-drblue;
+  }
+}

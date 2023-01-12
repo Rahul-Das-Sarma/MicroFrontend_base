@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.header-container {
+    box-shadow:  0px 3px 5px 0px rgba(196,196,196,1);
+    border-radius: 3px;
+    padding:0.8rem;
+    background-color: $cl-drblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: $cl-white;
+}
+.person-icon {
+    color:$cl-white;
+}
